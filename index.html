@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google" content="notranslate">
+<title>FYST</title>
+<meta name="description" content="Games by FYST, a solo indie developer.">
+<meta name="theme-color" content="#1b1838">
+<link rel="icon" href="/paper-wing/icons/icon-192.png">
+<style>
+  :root { --ink: #1b1838; --dusk: #5a3a6e; --paper: #fbf7ef; --glow: #ffcf6b; --muted: #b9addb; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--paper);
+    background: linear-gradient(180deg, #15122e 0%, var(--ink) 45%, var(--dusk) 100%);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    display: grid; place-items: center; padding: 48px 20px;
+  }
+  main { width: 100%; max-width: 560px; display: grid; gap: 28px; }
+  h1 { margin: 0; font-size: clamp(44px, 12vw, 72px); letter-spacing: .18em; font-weight: 900; }
+  .tag { margin: 6px 0 0; color: var(--muted); letter-spacing: .08em; }
+  .game {
+    display: grid; grid-template-columns: 96px 1fr; gap: 18px; align-items: center;
+    padding: 18px; border-radius: 22px; background: rgba(251, 247, 239, .06);
+    border: 1px solid rgba(251, 247, 239, .12); text-decoration: none; color: inherit;
+  }
+  .game:hover, .game:focus-visible { background: rgba(251, 247, 239, .11); outline: 2px solid var(--glow); outline-offset: 2px; }
+  .game img { width: 96px; height: 96px; border-radius: 22px; }
+  .game h2 { margin: 0 0 6px; font-size: 22px; }
+  .game p { margin: 0; color: var(--muted); line-height: 1.45; }
+  .play { display: inline-block; margin-top: 10px; color: var(--glow); font-weight: 700; letter-spacing: .06em; }
+  footer { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>FYST</h1>
+    <p class="tag">Solo indie games</p>
+  </header>
+  <a class="game" href="/paper-wing/">
+    <img src="/paper-wing/icons/icon-192.png" alt="Paper Wing icon" width="96" height="96">
+    <div>
+      <h2>Paper Wing</h2>
+      <p>Guide a paper plane between frozen clock towers under a giant black hole.</p>
+      <span class="play">PLAY →</span>
+    </div>
+  </a>
+  <footer>More coming soon.</footer>
+</main>
+</body>
+</html>
