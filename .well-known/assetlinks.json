@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.fystcore.paperwing",
+        "sha256_cert_fingerprints": ["42:50:AF:F3:84:08:CB:6F:BE:75:DE:F1:97:7C:77:3B:25:18:B8:76:C9:32:FF:BA:DC:70:85:C8:B7:57:73:15"]
+      }
+    }]
